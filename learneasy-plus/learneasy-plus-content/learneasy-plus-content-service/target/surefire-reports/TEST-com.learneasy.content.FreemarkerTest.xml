@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="1" name="com.learneasy.content.FreemarkerTest" time="0.182" errors="0" skipped="0">
+  <properties>
+    <property name="idea.version" value="2023.1.5"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_341\jre\bin"/>
+    <property name="java.vm.version" value="25.341-b10"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\IDEA\date\learneasy-plus\learneasy-plus-content"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\IDEA\date\learneasy-plus\learneasy-plus-content"/>
+    <property name="java.runtime.version" value="1.8.0_341-b10"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_341\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\23863\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="D:\IDEA\IntelliJ IDEA 2023.1.5\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="D:\IDEA\IntelliJ IDEA 2023.1.5\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_341\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\VM\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\pycharm\OTB-8.0.1-Win64\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;D:\pycharm\OTB-8.0.1-Win64\lib;D:\pycharm\OTB-8.0.1-Win64\plugins;D:\pycharm\OTB-8.0.1-Win64\include;D:\pycharm\OTB-8.0.1-Win64;C:\Program Files\MySQL\MySQL Server 8.0\bin;D:\maven\apache-maven-3.8.6\bin;D:\Git\cmd;D:\node\;D:\pycharm\OTB-8.0.1-Win64\bin;C:\OSGeo4W\apps\Python37\Scripts;C:\OSGeo4W\apps\Python37;D:\pycharm\PyCharm Community Edition 2022.2\bin;;C:\Users\23863\.dotnet\tools;C:\Users\23863\AppData\Local\Programs\Microsoft VS Code\bin;C:\cygwin64\bin;D:\Idea\IntelliJ IDEA Community Edition 2022.2\bin;;C:\Program Files\CMake\bin;C:\OSGeo4W\apps\qgis\bin;C:\OSGeo4W\bin;D:\jetty-home-11.0.11\bin;D:\apache-tomcat-9.0.65\lib;D:\apache-tomcat-9.0.65\bin;D:\apache-tomcat-9.0.65\lib\servlet-api.jar;D:\CodeBlocks\MinGW\bin;C:\Users\23863\AppData\Roaming\npm;D:\软件\ffmpeg;;."/>
+    <property name="jansi.passthrough" value="true"/>
+    <property name="maven.conf" value="D:\IDEA\IntelliJ IDEA 2023.1.5\plugins\maven\lib\maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="maven.repo.local" value="D:\maven\apache-maven-3.8.6\repository"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\23863"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="admin"/>
+    <property name="java.class.path" value="D:\IDEA\IntelliJ IDEA 2023.1.5\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;D:\IDEA\IntelliJ IDEA 2023.1.5\plugins\maven\lib\maven3\boot\plexus-classworlds.license;D:\IDEA\IntelliJ IDEA 2023.1.5\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_341\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2023.1.5 -s D:\maven\apache-maven-3.8.6\conf\settings.xml -Dmaven.repo.local=D:\maven\apache-maven-3.8.6\repository install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_341"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_341\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_341\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_341\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_341\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_341\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_341\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_341\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_341\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\IDEA\IntelliJ IDEA 2023.1.5\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.learneasy.content.FreemarkerTest" name="com.learneasy.content.FreemarkerTest.testGenerateHtmlByTemplate" time="0.182">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.learneasy.content.FreemarkerTest.testGenerateHtmlByTemplate(FreemarkerTest.java:49)
+</failure>
+    <system-err>���� 01, 2023 1:21:50 ���� freemarker.log._JULLoggerFactory$JULLogger error
+����: DefaultObjectWrapper.incompatibleImprovements was set to the object returned by Configuration.getVersion(). That defeats the purpose of incompatibleImprovements, and makes upgrading FreeMarker a potentially breaking change. Also, this probably won&apos;t be allowed starting from 2.4.0. Instead, set incompatibleImprovements to the highest concrete version that&apos;s known to be compatible with your application.
+���� 01, 2023 1:21:50 ���� freemarker.log._JULLoggerFactory$JULLogger error
+����: Configuration.incompatibleImprovements was set to the object returned by Configuration.getVersion(). That defeats the purpose of incompatibleImprovements, and makes upgrading FreeMarker a potentially breaking change. Also, this probably won&apos;t be allowed starting from 2.4.0. Instead, set incompatibleImprovements to the highest concrete version that&apos;s known to be compatible with your application.
+</system-err>
+  </testcase>
+</testsuite>

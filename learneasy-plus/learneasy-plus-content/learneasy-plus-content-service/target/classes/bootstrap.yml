@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: content-service
+  cloud:
+    nacos:
+      server-addr: 127.0.0.1:8848
+      config:
+        namespace: public
+        group: learneasy-plus-project
+        file-extension: yaml
+        refresh-enabled: true
+        shared-configs:
+          - data-id: feign-${spring.profiles.active}.yaml
+            group: learneasy-plus-common
+            refresh: true
+feign:
+  client:
+    config:
+      default: # 这里用default就是全局配置，如果是写服务名称，则是针对某个微服务的配置
+        loggerLevel: FULL #  日志级别
+#profiles默认为dev
+profiles:
+    active: dev
+
+logging:
+  config: classpath:log4j2-dev.xml
+  level:
+    com.learneasy.content.feignclient.MediaServiceClient: debug

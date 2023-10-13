@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/learneasy-plus-auth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learneasy-plus-auth/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learneasy-plus-base/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learneasy-plus-base/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learneasy-plus-checkcode/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learneasy-plus-checkcode/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learneasy-plus-content/learneasy-plus-content-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learneasy-plus-content/learneasy-plus-content-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learneasy-plus-content/learneasy-plus-content-model/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learneasy-plus-content/learneasy-plus-content-model/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learneasy-plus-content/learneasy-plus-content-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learneasy-plus-content/learneasy-plus-content-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learneasy-plus-content/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learneasy-plus-content/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learneasy-plus-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learneasy-plus-gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learneasy-plus-generator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learneasy-plus-generator/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learneasy-plus-learning/learneasy-plus-learning-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learneasy-plus-learning/learneasy-plus-learning-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learneasy-plus-learning/learneasy-plus-learning-model/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learneasy-plus-learning/learneasy-plus-learning-model/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learneasy-plus-learning/learneasy-plus-learning-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learneasy-plus-learning/learneasy-plus-learning-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learneasy-plus-learning/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learneasy-plus-learning/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learneasy-plus-media/learneasy-plus-media-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learneasy-plus-media/learneasy-plus-media-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learneasy-plus-media/learneasy-plus-media-model/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learneasy-plus-media/learneasy-plus-media-model/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learneasy-plus-media/learneasy-plus-media-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learneasy-plus-media/learneasy-plus-media-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learneasy-plus-media/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learneasy-plus-media/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learneasy-plus-message-sdk/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learneasy-plus-message-sdk/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learneasy-plus-orders/learneasy-plus-orders-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learneasy-plus-orders/learneasy-plus-orders-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learneasy-plus-orders/learneasy-plus-orders-model/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learneasy-plus-orders/learneasy-plus-orders-model/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learneasy-plus-orders/learneasy-plus-orders-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learneasy-plus-orders/learneasy-plus-orders-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learneasy-plus-orders/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learneasy-plus-orders/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learneasy-plus-parent/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learneasy-plus-parent/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learneasy-plus-search/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learneasy-plus-search/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learneasy-plus-system/learneasy-plus-system-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learneasy-plus-system/learneasy-plus-system-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learneasy-plus-system/learneasy-plus-system-model/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learneasy-plus-system/learneasy-plus-system-model/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learneasy-plus-system/learneasy-plus-system-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learneasy-plus-system/learneasy-plus-system-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learneasy-plus-system/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learneasy-plus-system/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

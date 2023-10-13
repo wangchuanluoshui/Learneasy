@@ -1,0 +1,16 @@
+### 授权码模式
+### 第一步申请授权码(浏览器请求)/oauth/authorize?client_id=c1&response_type=code&scope=all&redirect_uri=http://www.51xuecheng.cn
+### 第二步申请令牌
+POST {{auth_host}}/auth/oauth/token?client_id=LeWebApp&client_secret=LeWebApp&grant_type=authorization_code&code=mxW7Nj&redirect_uri=http://www.51xuecheng.cn
+
+
+### 密码模式
+POST {{auth_host}}/auth/oauth/token?client_id=LeWebApp&client_secret=LeWebApp&grant_type=password&username=super&password=111111
+
+
+###校验jwt令牌
+POST {{auth_host}}/auth/oauth/check_token?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsibGVhcm5lYXN5LXBsdXMiXSwidXNlcl9uYW1lIjoie1wiY2VsbHBob25lXCI6XCIxMjM0NVwiLFwiY3JlYXRlVGltZVwiOlwiMjAyMy0wOC0yMVQwODoyOTowM1wiLFwiZW1haWxcIjpcIlwiLFwiaWRcIjpcIjQ5XCIsXCJuYW1lXCI6XCJ0ZXN0MDJcIixcInBlcm1pc3Npb25zXCI6W10sXCJzZXhcIjpcIjFcIixcInN0YXR1c1wiOlwiMVwiLFwidXNlcm5hbWVcIjpcIml0XCIsXCJ1dHlwZVwiOlwiMTAxMDAyXCJ9Iiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTY5Mjk0ODk3NiwiYXV0aG9yaXRpZXMiOlsidGVzdCJdLCJqdGkiOiI0ZWRlNWIxNC01ZjIyLTQzYjUtYTkyZC0yYTQ3NTNmNmI0YjIiLCJjbGllbnRfaWQiOiJMZVdlYkFwcCJ9.bYXhK_GWFGPjjhhUNO0iGrlWxIEUVFBRzSecI9APvy0
+
+
+### 密码模式，请求AuthParamsDto参数
+POST {{auth_host}}/auth/oauth/token?client_id=LeWebApp&client_secret=LeWebApp&grant_type=password&username={"username":"stu1","password":"111111","authType":"password"}

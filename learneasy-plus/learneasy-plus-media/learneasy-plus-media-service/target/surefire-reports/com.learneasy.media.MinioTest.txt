@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: com.learneasy.media.MinioTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.288 sec <<< FAILURE!
+com.learneasy.media.MinioTest.test_delete()  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.IllegalArgumentException: C:\Users\23863\Desktop\图片\1.png not a regular file
+	at io.minio.UploadObjectArgs$Builder.validateFilename(UploadObjectArgs.java:63)
+	at io.minio.UploadObjectArgs$Builder.filename(UploadObjectArgs.java:68)
+	at io.minio.UploadObjectArgs$Builder.filename(UploadObjectArgs.java:83)
+	at com.learneasy.media.MinioTest.test_delete(MinioTest.java:64)
+
+com.learneasy.media.MinioTest.test_getFile()  Time elapsed: 0.218 sec  <<< FAILURE!
+java.io.FileNotFoundException: C:\Users\23863\Desktop\图片\1a.png (系统找不到指定的路径。)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at com.learneasy.media.MinioTest.test_getFile(MinioTest.java:86)
+
+com.learneasy.media.MinioTest.test_upload()  Time elapsed: 0.067 sec  <<< FAILURE!
+java.lang.IllegalArgumentException: C:\Users\23863\Desktop\图片\1.png not a regular file
+	at io.minio.UploadObjectArgs$Builder.validateFilename(UploadObjectArgs.java:63)
+	at io.minio.UploadObjectArgs$Builder.filename(UploadObjectArgs.java:68)
+	at io.minio.UploadObjectArgs$Builder.filename(UploadObjectArgs.java:83)
+	at com.learneasy.media.MinioTest.test_upload(MinioTest.java:43)
+

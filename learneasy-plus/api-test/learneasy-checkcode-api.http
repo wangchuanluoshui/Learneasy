@@ -1,0 +1,2 @@
+### 申请验证码
+POST {{checkcode_host}}/checkcode/pic

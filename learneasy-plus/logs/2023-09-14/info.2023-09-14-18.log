@@ -1,0 +1,168 @@
+2023-09-14 18:37:30,787 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[swagger-dev.yaml] & group[learneasy-plus-common]
+2023-09-14 18:37:30,787 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[swagger-dev.yaml] & group[learneasy-plus-common]
+2023-09-14 18:37:30,792 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[logging-dev.yaml] & group[learneasy-plus-common]
+2023-09-14 18:37:30,792 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[logging-dev.yaml] & group[learneasy-plus-common]
+2023-09-14 18:37:30,795 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[content-service-dev.yaml] & group[learneasy-plus-project]
+2023-09-14 18:37:30,795 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[content-service-dev.yaml] & group[learneasy-plus-project]
+2023-09-14 18:37:30,797 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[system-service] & group[learneasy-plus-project]
+2023-09-14 18:37:30,797 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[system-service] & group[learneasy-plus-project]
+2023-09-14 18:37:30,800 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[system-service.yaml] & group[learneasy-plus-project]
+2023-09-14 18:37:30,800 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[system-service.yaml] & group[learneasy-plus-project]
+2023-09-14 18:37:30,802 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[system-service-dev.yaml] & group[learneasy-plus-project]
+2023-09-14 18:37:30,802 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[system-service-dev.yaml] & group[learneasy-plus-project]
+2023-09-14 18:37:30,803 INFO [main][PropertySourceBootstrapConfiguration.java:112] - Located property source: [BootstrapPropertySource {name='bootstrapProperties-system-service-dev.yaml,learneasy-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-system-service.yaml,learneasy-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-system-service,learneasy-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-content-service-dev.yaml,learneasy-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-logging-dev.yaml,learneasy-plus-common'}, BootstrapPropertySource {name='bootstrapProperties-swagger-dev.yaml,learneasy-plus-common'}]
+2023-09-14 18:37:30,803 INFO [main][PropertySourceBootstrapConfiguration.java:112] - Located property source: [BootstrapPropertySource {name='bootstrapProperties-system-service-dev.yaml,learneasy-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-system-service.yaml,learneasy-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-system-service,learneasy-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-content-service-dev.yaml,learneasy-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-logging-dev.yaml,learneasy-plus-common'}, BootstrapPropertySource {name='bootstrapProperties-swagger-dev.yaml,learneasy-plus-common'}]
+2023-09-14 18:37:30,822 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2023-09-14 18:37:30,822 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2023-09-14 18:37:31,499 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-09-14 18:37:31,499 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-09-14 18:37:31,562 INFO [main][GenericScope.java:295] - BeanFactory id=23e8a795-5c51-3ac2-88fc-7fab7455d90f
+2023-09-14 18:37:31,562 INFO [main][GenericScope.java:295] - BeanFactory id=23e8a795-5c51-3ac2-88fc-7fab7455d90f
+2023-09-14 18:37:31,794 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63110 (http)
+2023-09-14 18:37:31,794 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63110 (http)
+2023-09-14 18:37:31,835 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63110"]
+2023-09-14 18:37:31,835 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63110"]
+2023-09-14 18:37:31,836 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-09-14 18:37:31,836 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-09-14 18:37:31,836 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-09-14 18:37:31,836 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-09-14 18:37:31,935 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-09-14 18:37:31,935 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-09-14 18:37:31,935 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1101 ms
+2023-09-14 18:37:31,935 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1101 ms
+2023-09-14 18:37:32,028 WARN [main][AbstractApplicationContext.java:559] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dictionaryController': Unsatisfied dependency expressed through field 'dictionaryService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dictionaryServiceImpl': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dictionaryMapper' defined in file [D:\program\xianyu\quanxian\learneasy-plus\learneasy-plus-system\learneasy-plus-system-service\target\classes\com\learneasy\system\mapper\DictionaryMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2023-09-14 18:37:32,028 WARN [main][AbstractApplicationContext.java:559] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dictionaryController': Unsatisfied dependency expressed through field 'dictionaryService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dictionaryServiceImpl': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dictionaryMapper' defined in file [D:\program\xianyu\quanxian\learneasy-plus\learneasy-plus-system\learneasy-plus-system-service\target\classes\com\learneasy\system\mapper\DictionaryMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2023-09-14 18:37:32,030 INFO [main][DirectJDKLog.java:173] - Stopping service [Tomcat]
+2023-09-14 18:37:32,030 INFO [main][DirectJDKLog.java:173] - Stopping service [Tomcat]
+2023-09-14 18:37:32,041 INFO [main][ConditionEvaluationReportLoggingListener.java:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-09-14 18:37:32,041 INFO [main][ConditionEvaluationReportLoggingListener.java:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-09-14 18:37:32,049 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2023-09-14 18:37:32,049 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2023-09-14 18:37:32,051 WARN [Thread-2][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-09-14 18:37:32,051 WARN [Thread-2][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-09-14 18:37:32,051 WARN [Thread-2][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-09-14 18:37:32,051 WARN [Thread-2][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-09-14 18:37:58,455 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[swagger-dev.yaml] & group[learneasy-plus-common]
+2023-09-14 18:37:58,455 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[swagger-dev.yaml] & group[learneasy-plus-common]
+2023-09-14 18:37:58,461 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[logging-dev.yaml] & group[learneasy-plus-common]
+2023-09-14 18:37:58,461 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[logging-dev.yaml] & group[learneasy-plus-common]
+2023-09-14 18:37:58,464 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[content-service-dev.yaml] & group[learneasy-plus-project]
+2023-09-14 18:37:58,464 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[content-service-dev.yaml] & group[learneasy-plus-project]
+2023-09-14 18:37:58,466 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[system-service] & group[learneasy-plus-project]
+2023-09-14 18:37:58,466 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[system-service] & group[learneasy-plus-project]
+2023-09-14 18:37:58,469 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[system-service.yaml] & group[learneasy-plus-project]
+2023-09-14 18:37:58,469 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[system-service.yaml] & group[learneasy-plus-project]
+2023-09-14 18:37:58,472 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[system-service-dev.yaml] & group[learneasy-plus-project]
+2023-09-14 18:37:58,472 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[system-service-dev.yaml] & group[learneasy-plus-project]
+2023-09-14 18:37:58,474 INFO [main][PropertySourceBootstrapConfiguration.java:112] - Located property source: [BootstrapPropertySource {name='bootstrapProperties-system-service-dev.yaml,learneasy-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-system-service.yaml,learneasy-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-system-service,learneasy-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-content-service-dev.yaml,learneasy-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-logging-dev.yaml,learneasy-plus-common'}, BootstrapPropertySource {name='bootstrapProperties-swagger-dev.yaml,learneasy-plus-common'}]
+2023-09-14 18:37:58,474 INFO [main][PropertySourceBootstrapConfiguration.java:112] - Located property source: [BootstrapPropertySource {name='bootstrapProperties-system-service-dev.yaml,learneasy-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-system-service.yaml,learneasy-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-system-service,learneasy-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-content-service-dev.yaml,learneasy-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-logging-dev.yaml,learneasy-plus-common'}, BootstrapPropertySource {name='bootstrapProperties-swagger-dev.yaml,learneasy-plus-common'}]
+2023-09-14 18:37:58,497 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2023-09-14 18:37:58,497 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2023-09-14 18:37:59,209 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-09-14 18:37:59,209 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-09-14 18:37:59,288 INFO [main][GenericScope.java:295] - BeanFactory id=23e8a795-5c51-3ac2-88fc-7fab7455d90f
+2023-09-14 18:37:59,288 INFO [main][GenericScope.java:295] - BeanFactory id=23e8a795-5c51-3ac2-88fc-7fab7455d90f
+2023-09-14 18:37:59,594 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63110 (http)
+2023-09-14 18:37:59,594 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63110 (http)
+2023-09-14 18:37:59,602 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63110"]
+2023-09-14 18:37:59,602 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63110"]
+2023-09-14 18:37:59,603 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-09-14 18:37:59,603 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-09-14 18:37:59,603 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-09-14 18:37:59,603 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-09-14 18:37:59,713 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-09-14 18:37:59,713 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-09-14 18:37:59,714 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1199 ms
+2023-09-14 18:37:59,714 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1199 ms
+2023-09-14 18:37:59,819 WARN [main][AbstractApplicationContext.java:559] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dictionaryController': Unsatisfied dependency expressed through field 'dictionaryService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dictionaryServiceImpl': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dictionaryMapper' defined in file [D:\program\xianyu\quanxian\learneasy-plus\learneasy-plus-system\learneasy-plus-system-service\target\classes\com\learneasy\system\mapper\DictionaryMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2023-09-14 18:37:59,819 WARN [main][AbstractApplicationContext.java:559] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dictionaryController': Unsatisfied dependency expressed through field 'dictionaryService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dictionaryServiceImpl': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dictionaryMapper' defined in file [D:\program\xianyu\quanxian\learneasy-plus\learneasy-plus-system\learneasy-plus-system-service\target\classes\com\learneasy\system\mapper\DictionaryMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2023-09-14 18:37:59,820 INFO [main][DirectJDKLog.java:173] - Stopping service [Tomcat]
+2023-09-14 18:37:59,820 INFO [main][DirectJDKLog.java:173] - Stopping service [Tomcat]
+2023-09-14 18:37:59,831 INFO [main][ConditionEvaluationReportLoggingListener.java:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-09-14 18:37:59,831 INFO [main][ConditionEvaluationReportLoggingListener.java:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-09-14 18:37:59,845 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2023-09-14 18:37:59,845 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2023-09-14 18:37:59,847 WARN [Thread-2][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-09-14 18:37:59,847 WARN [Thread-2][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-09-14 18:37:59,847 WARN [Thread-2][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-09-14 18:37:59,847 WARN [Thread-2][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end

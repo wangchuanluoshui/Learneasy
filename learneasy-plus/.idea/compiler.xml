@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Annotation profile for learneasy-plus-system" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="D:/maven/apache-maven-3.8.6/repository/org/projectlombok/lombok/1.18.8/lombok-1.18.8.jar" />
+        </processorPath>
+        <module name="learneasy-plus-media-api" />
+        <module name="learneasy-plus-content-service" />
+        <module name="learneasy-plus-checkcode" />
+        <module name="learneasy-plus-media-service" />
+        <module name="learneasy-plus-learning-model" />
+        <module name="learneasy-plus-system-api" />
+        <module name="learneasy-plus-system-service" />
+        <module name="learneasy-plus-learning-service" />
+        <module name="learneasy-plus-content-api" />
+        <module name="learneasy-plus-orders-api" />
+        <module name="learneasy-plus-orders-model" />
+        <module name="learneasy-plus-media-model" />
+        <module name="learneasy-plus-system-model" />
+        <module name="learneasy-plus-content-model" />
+        <module name="learneasy-plus-learning-api" />
+        <module name="learneasy-plus-gateway" />
+        <module name="learneasy-plus-message-sdk" />
+        <module name="learneasy-plus-base" />
+        <module name="learneasy-plus-generator" />
+        <module name="learneasy-plus-search" />
+        <module name="learneasy-plus-orders-service" />
+        <module name="learneasy-plus-auth" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="xuecheng-plus-auth" target="1.8" />
+      <module name="xuecheng-plus-search" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

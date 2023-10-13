@@ -1,0 +1,6 @@
+com\learneasy\system\model\po\LeRole.class
+com\learneasy\system\model\po\LeMenu.class
+com\learneasy\system\model\po\LeUser.class
+com\learneasy\system\model\po\LeUserRole.class
+com\learneasy\system\model\po\LePermission.class
+com\learneasy\system\model\po\Dictionary.class

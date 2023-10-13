@@ -1,0 +1,12 @@
+com\learneasy\content\api\CoursePublishController.class
+com\learneasy\content\util\SecurityUtil.class
+com\learneasy\content\api\CourseBaseInfoController.class
+com\learneasy\content\config\ResourceServerConfig.class
+com\learneasy\content\api\CourseOpenController.class
+com\learneasy\content\config\TokenConfig.class
+com\learneasy\content\ContentApplication.class
+com\learneasy\content\api\CourseCategoryController.class
+com\learneasy\content\api\CourseTeacherController.class
+com\learneasy\content\api\FreemarkerController.class
+com\learneasy\content\api\TeachplanController.class
+com\learneasy\content\util\SecurityUtil$LeUser.class

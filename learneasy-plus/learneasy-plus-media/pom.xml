@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>learneasy-plus-parent</artifactId>
+        <groupId>com.learneasy</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../learneasy-plus-parent</relativePath>
+    </parent>
+    <artifactId>learneasy-plus-media</artifactId>
+    <name>learneasy-plus-media</name>
+    <description>learneasy-plus-media</description>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>learneasy-plus-media-api</module>
+        <module>learneasy-plus-media-service</module>
+        <module>learneasy-plus-media-model</module>
+    </modules>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <configuration>
+                    <testFailureIgnore>true</testFailureIgnore>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

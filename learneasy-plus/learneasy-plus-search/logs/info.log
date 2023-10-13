@@ -1,0 +1,150 @@
+2023-09-01 16:34:03,530 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2023-09-01 16:34:03,530 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2023-09-01 16:34:04,388 INFO [main][GenericScope.java:295] - BeanFactory id=e94781e9-9b73-36ae-8fa9-deab1569fda1
+2023-09-01 16:34:04,388 INFO [main][GenericScope.java:295] - BeanFactory id=e94781e9-9b73-36ae-8fa9-deab1569fda1
+2023-09-01 16:34:05,535 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-09-01 16:34:05,535 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-09-01 16:34:05,535 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-09-01 16:34:05,535 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-09-01 16:34:05,541 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-09-01 16:34:05,541 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-09-01 16:34:05,541 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-09-01 16:34:05,541 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-09-01 16:34:05,580 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-09-01 16:34:05,580 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-09-01 16:34:05,588 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2023-09-01 16:34:05,588 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2023-09-01 16:34:05,588 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2023-09-01 16:34:05,588 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2023-09-01 16:34:05,589 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2023-09-01 16:34:05,589 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2023-09-01 16:34:05,591 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-09-01 16:34:05,591 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-09-01 16:34:05,591 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2023-09-01 16:34:05,591 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2023-09-01 16:34:05,592 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-09-01 16:34:05,592 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-09-01 16:34:05,592 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-09-01 16:34:05,592 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-09-01 16:34:05,592 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-09-01 16:34:05,592 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-09-01 16:34:05,593 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-09-01 16:34:05,593 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-09-01 16:34:05,595 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-09-01 16:34:05,595 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-09-01 16:34:05,595 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-09-01 16:34:05,595 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-09-01 16:34:05,595 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-09-01 16:34:05,595 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-09-01 16:34:05,595 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-09-01 16:34:05,595 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-09-01 16:34:05,596 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-09-01 16:34:05,596 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-09-01 16:34:05,596 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-09-01 16:34:05,596 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-09-01 16:34:05,883 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-09-01 16:34:05,883 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-09-01 16:34:07,443 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-09-01 16:34:07,443 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-09-01 16:34:07,458 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-09-01 16:34:07,458 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-09-01 16:34:08,876 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-09-01 16:34:08,876 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-09-01 16:34:09,011 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2023-09-01 16:34:09,011 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2023-09-01 16:34:09,012 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2023-09-01 16:34:09,012 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2023-09-01 16:34:09,013 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2023-09-01 16:34:09,013 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2023-09-01 16:34:09,019 DEBUG [main][NamingProxy.java:195] - server list provided by user: [127.0.0.1:8848]
+2023-09-01 16:34:09,019 DEBUG [main][NamingProxy.java:195] - server list provided by user: [127.0.0.1:8848]
+2023-09-01 16:34:09,020 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [127.0.0.1:8848]
+2023-09-01 16:34:09,020 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [127.0.0.1:8848]
+2023-09-01 16:34:09,024 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-09-01 16:34:09,024 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-09-01 16:34:09,036 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2023-09-01 16:34:09,036 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2023-09-01 16:34:09,038 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://127.0.0.1:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev1010&clientIP=192.168.101.1&serviceName=learneasy-plus-project%40%40search&udpPort=53473&clusters=DEFAULT, body: {}
+2023-09-01 16:34:09,038 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://127.0.0.1:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev1010&clientIP=192.168.101.1&serviceName=learneasy-plus-project%40%40search&udpPort=53473&clusters=DEFAULT, body: {}
+2023-09-01 16:34:09,251 INFO [main][HostReactor.java:232] - new ips(1) service: learneasy-plus-project@@search@@DEFAULT -> [{"instanceId":"192.168.85.1#63080#DEFAULT#learneasy-plus-project@@search","ip":"192.168.85.1","port":63080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"learneasy-plus-project@@search","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2023-09-01 16:34:09,251 INFO [main][HostReactor.java:232] - new ips(1) service: learneasy-plus-project@@search@@DEFAULT -> [{"instanceId":"192.168.85.1#63080#DEFAULT#learneasy-plus-project@@search","ip":"192.168.85.1","port":63080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"learneasy-plus-project@@search","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2023-09-01 16:34:09,276 INFO [main][HostReactor.java:271] - current ips:(1) service: learneasy-plus-project@@search@@DEFAULT -> [{"instanceId":"192.168.85.1#63080#DEFAULT#learneasy-plus-project@@search","ip":"192.168.85.1","port":63080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"learneasy-plus-project@@search","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2023-09-01 16:34:09,276 INFO [main][HostReactor.java:271] - current ips:(1) service: learneasy-plus-project@@search@@DEFAULT -> [{"instanceId":"192.168.85.1#63080#DEFAULT#learneasy-plus-project@@search","ip":"192.168.85.1","port":63080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"learneasy-plus-project@@search","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2023-09-01 16:34:09,291 INFO [main][StartupInfoLogger.java:61] - Started CourseIndexSearchTest in 9.822 seconds (JVM running for 13.285)
+2023-09-01 16:34:09,291 INFO [main][StartupInfoLogger.java:61] - Started CourseIndexSearchTest in 9.822 seconds (JVM running for 13.285)
+2023-09-01 16:34:09,299 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev1010] [subscribe] swagger-dev.yaml+learneasy-plus-common+dev1010
+2023-09-01 16:34:09,299 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev1010] [subscribe] swagger-dev.yaml+learneasy-plus-common+dev1010
+2023-09-01 16:34:09,300 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev1010] [add-listener] ok, tenant=dev1010, dataId=swagger-dev.yaml, group=learneasy-plus-common, cnt=1
+2023-09-01 16:34:09,300 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev1010] [add-listener] ok, tenant=dev1010, dataId=swagger-dev.yaml, group=learneasy-plus-common, cnt=1
+2023-09-01 16:34:09,302 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev1010] [subscribe] logging-dev.yaml+learneasy-plus-common+dev1010
+2023-09-01 16:34:09,302 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev1010] [subscribe] logging-dev.yaml+learneasy-plus-common+dev1010
+2023-09-01 16:34:09,303 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev1010] [add-listener] ok, tenant=dev1010, dataId=logging-dev.yaml, group=learneasy-plus-common, cnt=1
+2023-09-01 16:34:09,303 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev1010] [add-listener] ok, tenant=dev1010, dataId=logging-dev.yaml, group=learneasy-plus-common, cnt=1
+2023-09-01 16:34:09,304 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev1010] [subscribe] search+learneasy-plus-project+dev1010
+2023-09-01 16:34:09,304 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev1010] [subscribe] search+learneasy-plus-project+dev1010
+2023-09-01 16:34:09,304 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev1010] [add-listener] ok, tenant=dev1010, dataId=search, group=learneasy-plus-project, cnt=1
+2023-09-01 16:34:09,304 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev1010] [add-listener] ok, tenant=dev1010, dataId=search, group=learneasy-plus-project, cnt=1
+2023-09-01 16:34:09,304 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev1010] [subscribe] search.yaml+learneasy-plus-project+dev1010
+2023-09-01 16:34:09,304 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev1010] [subscribe] search.yaml+learneasy-plus-project+dev1010
+2023-09-01 16:34:09,305 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev1010] [add-listener] ok, tenant=dev1010, dataId=search.yaml, group=learneasy-plus-project, cnt=1
+2023-09-01 16:34:09,305 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev1010] [add-listener] ok, tenant=dev1010, dataId=search.yaml, group=learneasy-plus-project, cnt=1
+2023-09-01 16:34:09,306 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev1010] [subscribe] search-dev.yaml+learneasy-plus-project+dev1010
+2023-09-01 16:34:09,306 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev1010] [subscribe] search-dev.yaml+learneasy-plus-project+dev1010
+2023-09-01 16:34:09,308 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev1010] [add-listener] ok, tenant=dev1010, dataId=search-dev.yaml, group=learneasy-plus-project, cnt=1
+2023-09-01 16:34:09,308 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev1010] [add-listener] ok, tenant=dev1010, dataId=search-dev.yaml, group=learneasy-plus-project, cnt=1
+2023-09-01 16:34:09,312 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev1010][NacosRestTemplate.java:476] - HTTP method: POST, url: http://127.0.0.1:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamllearneasy-plus-commona84d224238370276109cf791d5feba14dev1010logging-dev.yamllearneasy-plus-commoncf8b1af28beb25b242f97519c8f2c560dev1010search.yamllearneasy-plus-projectdev1010searchlearneasy-plus-projectdev1010search-dev.yamllearneasy-plus-project9b90f07562994fc7295e4cb5fd43debfdev1010, tenant=dev1010}
+2023-09-01 16:34:09,312 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev1010][NacosRestTemplate.java:476] - HTTP method: POST, url: http://127.0.0.1:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamllearneasy-plus-commona84d224238370276109cf791d5feba14dev1010logging-dev.yamllearneasy-plus-commoncf8b1af28beb25b242f97519c8f2c560dev1010search.yamllearneasy-plus-projectdev1010searchlearneasy-plus-projectdev1010search-dev.yamllearneasy-plus-project9b90f07562994fc7295e4cb5fd43debfdev1010, tenant=dev1010}
+2023-09-01 16:34:09,313 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev1010][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@1ba32cc2]
+2023-09-01 16:34:09,313 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev1010][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@1ba32cc2]
+2023-09-01 16:34:09,323 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev1010][NacosRestTemplate.java:476] - HTTP method: POST, url: http://127.0.0.1:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamllearneasy-plus-commona84d224238370276109cf791d5feba14dev1010logging-dev.yamllearneasy-plus-commoncf8b1af28beb25b242f97519c8f2c560dev1010search.yamllearneasy-plus-projectdev1010searchlearneasy-plus-projectdev1010search-dev.yamllearneasy-plus-project9b90f07562994fc7295e4cb5fd43debfdev1010, tenant=dev1010}
+2023-09-01 16:34:09,323 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev1010][NacosRestTemplate.java:476] - HTTP method: POST, url: http://127.0.0.1:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamllearneasy-plus-commona84d224238370276109cf791d5feba14dev1010logging-dev.yamllearneasy-plus-commoncf8b1af28beb25b242f97519c8f2c560dev1010search.yamllearneasy-plus-projectdev1010searchlearneasy-plus-projectdev1010search-dev.yamllearneasy-plus-project9b90f07562994fc7295e4cb5fd43debfdev1010, tenant=dev1010}
+2023-09-01 16:34:09,324 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev1010][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@1ba32cc2]
+2023-09-01 16:34:09,324 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev1010][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@1ba32cc2]
+2023-09-01 16:34:10,035 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@732d7322 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@5b5f9003
+2023-09-01 16:34:10,035 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@732d7322 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@5b5f9003
+2023-09-01 16:34:10,282 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://127.0.0.1:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev1010&clientIP=192.168.101.1&serviceName=learneasy-plus-project%40%40search&udpPort=53473&clusters=DEFAULT, body: {}
+2023-09-01 16:34:10,282 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://127.0.0.1:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev1010&clientIP=192.168.101.1&serviceName=learneasy-plus-project%40%40search&udpPort=53473&clusters=DEFAULT, body: {}
+2023-09-01 16:34:11,013 DEBUG [main][RequestLogger.java:59] - request [PUT http://192.168.101.65:9200/course-publish/_doc/101?timeout=1m] returned [HTTP/1.1 201 Created]
+2023-09-01 16:34:11,013 DEBUG [main][RequestLogger.java:59] - request [PUT http://192.168.101.65:9200/course-publish/_doc/101?timeout=1m] returned [HTTP/1.1 201 Created]
+2023-09-01 16:34:11,054 WARN [Thread-13][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-09-01 16:34:11,054 WARN [Thread-2][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-09-01 16:34:11,054 WARN [Thread-13][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-09-01 16:34:11,054 WARN [Thread-2][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-09-01 16:34:11,054 WARN [Thread-13][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-09-01 16:34:11,054 WARN [Thread-13][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-09-01 16:34:11,054 WARN [Thread-2][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-09-01 16:34:11,054 WARN [Thread-2][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-09-01 16:34:11,055 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-09-01 16:34:11,055 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-09-01 16:34:11,059 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2023-09-01 16:34:11,059 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2023-09-01 16:34:11,059 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2023-09-01 16:34:11,059 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2023-09-01 16:34:11,060 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2023-09-01 16:34:11,060 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2023-09-01 16:34:14,025 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-09-01 16:34:14,025 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-09-01 16:34:14,061 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2023-09-01 16:34:14,061 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2023-09-01 16:34:17,064 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2023-09-01 16:34:17,064 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2023-09-01 16:34:17,067 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2023-09-01 16:34:17,067 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2023-09-01 16:34:19,029 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2023-09-01 16:34:19,029 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2023-09-01 16:34:19,030 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2023-09-01 16:34:19,030 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2023-09-01 16:34:19,031 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2023-09-01 16:34:19,031 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2023-09-01 16:34:19,031 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-09-01 16:34:19,031 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-09-01 16:34:19,031 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2023-09-01 16:34:19,031 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2023-09-01 16:34:19,032 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2023-09-01 16:34:19,032 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2023-09-01 16:34:19,033 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2023-09-01 16:34:19,033 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2023-09-01 16:34:19,033 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2023-09-01 16:34:19,033 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2023-09-01 16:34:19,035 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-09-01 16:34:19,035 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'

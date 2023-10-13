@@ -1,0 +1,50 @@
+2023-09-16 22:24:23,943 WARN [http-nio-63110-exec-7][AbstractHandlerExceptionResolver.java:199] - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.learneasy.base.model.PageResult<com.learneasy.system.model.po.LeRole> com.learneasy.system.controller.LeRoleController.list(com.learneasy.base.model.PageParams,com.learneasy.system.model.po.LeRole)]
+2023-09-16 22:24:23,943 WARN [http-nio-63110-exec-7][AbstractHandlerExceptionResolver.java:199] - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.learneasy.base.model.PageResult<com.learneasy.system.model.po.LeRole> com.learneasy.system.controller.LeRoleController.list(com.learneasy.base.model.PageParams,com.learneasy.system.model.po.LeRole)]
+2023-09-16 22:43:42,192 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-09-16 22:43:42,192 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-09-16 22:43:42,195 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'taskScheduler'
+2023-09-16 22:43:42,195 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'taskScheduler'
+2023-09-16 22:43:51,268 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2023-09-16 22:43:51,268 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2023-09-16 22:43:51,284 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-09-16 22:43:51,284 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-09-16 22:45:05,597 INFO [main][PropertySourceBootstrapConfiguration.java:112] - Located property source: [BootstrapPropertySource {name='bootstrapProperties-system-service-dev.yaml,learneasy-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-system-service.yaml,learneasy-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-system-service,learneasy-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-logging-dev.yaml,learneasy-plus-common'}, BootstrapPropertySource {name='bootstrapProperties-swagger-dev.yaml,learneasy-plus-common'}]
+2023-09-16 22:45:05,597 INFO [main][PropertySourceBootstrapConfiguration.java:112] - Located property source: [BootstrapPropertySource {name='bootstrapProperties-system-service-dev.yaml,learneasy-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-system-service.yaml,learneasy-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-system-service,learneasy-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-logging-dev.yaml,learneasy-plus-common'}, BootstrapPropertySource {name='bootstrapProperties-swagger-dev.yaml,learneasy-plus-common'}]
+2023-09-16 22:45:08,805 INFO [main][GenericScope.java:295] - BeanFactory id=f75df8a9-3280-360a-8767-9ac19cad6e11
+2023-09-16 22:45:08,805 INFO [main][GenericScope.java:295] - BeanFactory id=f75df8a9-3280-360a-8767-9ac19cad6e11
+2023-09-16 22:45:09,308 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63110 (http)
+2023-09-16 22:45:09,308 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63110 (http)
+2023-09-16 22:45:09,777 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 4045 ms
+2023-09-16 22:45:09,777 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 4045 ms
+2023-09-16 22:45:12,718 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-09-16 22:45:12,718 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-09-16 22:45:12,946 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-09-16 22:45:12,946 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-09-16 22:45:13,629 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-09-16 22:45:13,629 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-09-16 22:45:13,935 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'taskScheduler'
+2023-09-16 22:45:13,935 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'taskScheduler'
+2023-09-16 22:45:14,781 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63110 (http) with context path '/system'
+2023-09-16 22:45:14,781 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63110 (http) with context path '/system'
+2023-09-16 22:45:16,142 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2023-09-16 22:45:16,142 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2023-09-16 22:45:16,156 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2023-09-16 22:45:16,156 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2023-09-16 22:45:16,196 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2023-09-16 22:45:16,196 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2023-09-16 22:45:16,381 INFO [main][CachingOperationNameGenerator.java:40] - Generating unique operation named: listUsingPOST_1
+2023-09-16 22:45:16,381 INFO [main][CachingOperationNameGenerator.java:40] - Generating unique operation named: listUsingPOST_1
+2023-09-16 22:45:16,391 INFO [main][CachingOperationNameGenerator.java:40] - Generating unique operation named: listUsingPOST_2
+2023-09-16 22:45:16,391 INFO [main][CachingOperationNameGenerator.java:40] - Generating unique operation named: listUsingPOST_2
+2023-09-16 22:45:18,270 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][PropertySourceBootstrapConfiguration.java:112] - Located property source: [BootstrapPropertySource {name='bootstrapProperties-system-service-dev.yaml,learneasy-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-system-service.yaml,learneasy-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-system-service,learneasy-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-logging-dev.yaml,learneasy-plus-common'}, BootstrapPropertySource {name='bootstrapProperties-swagger-dev.yaml,learneasy-plus-common'}]
+2023-09-16 22:45:18,270 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][PropertySourceBootstrapConfiguration.java:112] - Located property source: [BootstrapPropertySource {name='bootstrapProperties-system-service-dev.yaml,learneasy-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-system-service.yaml,learneasy-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-system-service,learneasy-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-logging-dev.yaml,learneasy-plus-common'}, BootstrapPropertySource {name='bootstrapProperties-swagger-dev.yaml,learneasy-plus-common'}]
+2023-09-16 22:45:18,289 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][SpringApplication.java:655] - The following profiles are active: dev
+2023-09-16 22:45:18,289 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][SpringApplication.java:655] - The following profiles are active: dev
+2023-09-16 22:45:18,301 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][StartupInfoLogger.java:61] - Started application in 1.858 seconds (JVM running for 22.787)
+2023-09-16 22:45:18,301 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][StartupInfoLogger.java:61] - Started application in 1.858 seconds (JVM running for 22.787)
+2023-09-16 22:45:18,335 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][RefreshEventListener.java:73] - Refresh keys changed: []
+2023-09-16 22:45:18,335 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][RefreshEventListener.java:73] - Refresh keys changed: []
+2023-09-16 22:47:21,178 INFO [http-nio-63110-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-09-16 22:47:21,178 INFO [http-nio-63110-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-09-16 22:47:21,189 INFO [http-nio-63110-exec-1][FrameworkServlet.java:547] - Completed initialization in 11 ms
+2023-09-16 22:47:21,189 INFO [http-nio-63110-exec-1][FrameworkServlet.java:547] - Completed initialization in 11 ms

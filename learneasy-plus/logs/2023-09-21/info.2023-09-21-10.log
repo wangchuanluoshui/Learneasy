@@ -1,0 +1,12 @@
+2023-09-21 11:00:44,738 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-09-21 11:00:44,738 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-09-21 11:00:44,789 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-09-21 11:00:44,789 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-09-21 11:00:44,840 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2023-09-21 11:00:44,840 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2023-09-21 11:00:44,840 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: learneasy-plus-project@@search:192.168.85.1:63080 from beat map.
+2023-09-21 11:00:44,840 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: learneasy-plus-project@@search:192.168.85.1:63080 from beat map.
+2023-09-21 11:00:44,841 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] dev1010 deregistering service learneasy-plus-project@@search with instance: Instance{instanceId='null', ip='192.168.85.1', port=63080, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2023-09-21 11:00:44,841 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] dev1010 deregistering service learneasy-plus-project@@search with instance: Instance{instanceId='null', ip='192.168.85.1', port=63080, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2023-09-21 11:00:44,841 DEBUG [SpringContextShutdownHook][NacosRestTemplate.java:476] - HTTP method: DELETE, url: http://192.168.101.65:8848/nacos/v1/ns/instance?app=unknown&namespaceId=dev1010&port=63080&clusterName=DEFAULT&ip=192.168.85.1&ephemeral=true&serviceName=learneasy-plus-project%40%40search, body: {}
+2023-09-21 11:00:44,841 DEBUG [SpringContextShutdownHook][NacosRestTemplate.java:476] - HTTP method: DELETE, url: http://192.168.101.65:8848/nacos/v1/ns/instance?app=unknown&namespaceId=dev1010&port=63080&clusterName=DEFAULT&ip=192.168.85.1&ephemeral=true&serviceName=learneasy-plus-project%40%40search, body: {}

@@ -1,0 +1,27 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.101.65:3306/learneasy_order1?serverTimezone=UTC&userUnicode=true&useSSL=false&
+    username: root
+    password: mysql
+
+pay:
+ qrcodeurl: http://192.168.101.1/api/orders/requestpay?payNo=%s
+ alipay:
+   APP_ID: 9021000126651208
+   APP_PRIVATE_KEY: MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC98q7NE43nqM9xdFUzkNqQGIYcV0ZHR5zbNhNGyRF+hZSGFLjEgc1/6I8AINn+Eyne57fMpOu2TbWfIZB8VxY9RoQLGOAbjnn4HkbtYJVaBOn3oY95WbA1pDT0VQEnBt6+4NUB1MyhBBc8Yq/Xmo/EV89JlrkjjAlKQRmuPWa4AszXajoONxGEM2ppDcbvL4Y8LQYMnByp2gBDsfOJpKRt38x95GERnWoLhviB5A6DRBrPzViNJQyCVqqKFl9HC4GbzuYxDcn8ADLc+RoTbuFr83uhnsIAfwu5hwKoD6EI4fIkrA+A7KgIdrIczxZbUlvUs68a5zJdAWgTURUSnZzfAgMBAAECggEBAK94hx6P1+GPwsLuUt8mC6Jd5VY9EYE7mJ2xILGdgXm98OzEK8PsnWhx79iQgJEEJwPyT4rPN6jbtNJicVVMJhFJGSYfPrh2MBqT7bXQKWhVbcYDC8VwoyWKohishjoFULRIgr4EVVzRqJ1yFTs5X2JkM+upPzKlZNehuBWMR13oLow1b2vmzcZZgNcPbeKahA0Qz02Qxa31kb38Voci+UXGlObcBzgy037QVrVhARfzX1hBxLWbKK0n8MtIbg8oq+l10PRvEXOyqS8j37AxCG3zcCsMg+9q7XbtcvMGiCsOXaB4h7R0rj5fcBB/Xiw5osNA7p1E2xwrh2/jFfC8/HECgYEA9XMUuSeXooqbJL+mG0boNMSW33XALim3GqMVdyghlV6NISH65Jg79r79FMk3RD7dHzXoZIgRcGvP1ZXru8CfhotmHP64aBgCXtOmtN8pd90dJexpNnD2JONkAWbEqGUCZE1noyeyiH9kMW7mJbkZPxk0DNKJw8v4g2E2qLRwykUCgYEAxhzdTn3qnfcetysbnyqSrNzwdfkWDQkTAfXDi9nSjWUYBIOysYGzvNm6WY2YthoQm0uLaDQzACyuZu6qFEQqw8WmsF/bbOPL6WQaRYYy7D9RNIVQi0PVQ54/2h9u96cEWOnwhW160wM5xDD8hf5Pv04KrM1gwP3y7q1oS6g8rtMCgYBucynJI+LdVsf3onIp5h+J10kZJ1CitUzbJLX9F8b9Az44waS4BzU8lLcoCl/fSvaQG98GliBa2Xj94OfiZgyjK8l4lLsAxIUUjOOAkseDU7HRJfA2emCZOuX+p3MpX8LSxe40AiIZwFGi2QehxAhzV3EPsBIkVH3xCObixcfXjQKBgAc/uyFKHjGVfzw4iZQzXJaSpwHKEXJ8qINj2LnfSIL/9fcEUp+IHWmFlfn84l+XaJAmHX28mzkgaWk+xl5jeCUdsFG30DGVzDpH/WYZ2PcoAfKoBiByZPVKbw+uIsNRCymtta1MKjhaX9y75iGJAqX/Vwinoyisohz1n2FVUJMdAoGAf1PHx40dvIvNDMDNN8N76h7quPWYFfPE3CZI5zvCYMFnbouDcMy4c8ovJNMDcvgFGy/ADbayBc5IILWBWRMyMBphmhZyiZuJ7XvSXltY+R1HgXD5EXVWLf2DTOhnUMB4pfOemrOGqtar1Y7osjU62S9KbZGbpZVG+Hu4R6zJsOo=
+   ALIPAY_PUBLIC_KEY: IIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwhqYPfmAv1zChziKgjKaT4Z1HueNnQBPHRm0w7mV0T4C49XS3snLVC+wb7iKDOgg8DRG8mdXbEBu0q/4g/dtZUzRVktNeUHqCOy687XsI92SrMt5kOWtB/S5eDp6Wr1KJPn0lHTQ4RsufTEZh72c5xUHfwDHnRPP7B73mYiYjpiWw8uQkRxbcLnWMsVmBeYuxcc6ehgJf5CwrBcaLzI3e2nLkEWkmYUX9ZHlFXRYCv22sm8V0lFseMUVIvQ8x5jhR0CMHU0ufJoKUAotNtTolNWrJ1SgJ2PHsZ0XJiXfmh9G6w7oM1ibiCI9Vk3/Sm1/3oN5HcscLl2JbOU8pIfcdQIDAQAB
+
+
+xxl:
+  job:
+    admin: 
+      addresses: http://192.168.101.65:8088/xxl-job-admin
+    executor:
+      appname: payresultnotify-job
+      address: 
+      ip: 
+      port: 8989
+      logpath: /data/applogs/xxl-job/jobhandler
+      logretentiondays: 30
+    accessToken: default_token

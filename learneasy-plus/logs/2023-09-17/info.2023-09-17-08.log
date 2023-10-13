@@ -1,0 +1,92 @@
+2023-09-17 08:05:14,575 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-09-17 08:05:14,575 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-09-17 08:05:14,861 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'taskScheduler'
+2023-09-17 08:05:14,861 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'taskScheduler'
+2023-09-17 08:10:49,444 INFO [main][PropertySourceBootstrapConfiguration.java:112] - Located property source: [BootstrapPropertySource {name='bootstrapProperties-system-service-dev.yaml,learneasy-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-system-service.yaml,learneasy-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-system-service,learneasy-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-logging-dev.yaml,learneasy-plus-common'}, BootstrapPropertySource {name='bootstrapProperties-swagger-dev.yaml,learneasy-plus-common'}]
+2023-09-17 08:10:49,444 INFO [main][PropertySourceBootstrapConfiguration.java:112] - Located property source: [BootstrapPropertySource {name='bootstrapProperties-system-service-dev.yaml,learneasy-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-system-service.yaml,learneasy-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-system-service,learneasy-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-logging-dev.yaml,learneasy-plus-common'}, BootstrapPropertySource {name='bootstrapProperties-swagger-dev.yaml,learneasy-plus-common'}]
+2023-09-17 08:10:51,875 INFO [main][GenericScope.java:295] - BeanFactory id=f75df8a9-3280-360a-8767-9ac19cad6e11
+2023-09-17 08:10:51,875 INFO [main][GenericScope.java:295] - BeanFactory id=f75df8a9-3280-360a-8767-9ac19cad6e11
+2023-09-17 08:10:52,388 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63110 (http)
+2023-09-17 08:10:52,388 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63110 (http)
+2023-09-17 08:10:52,598 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 3093 ms
+2023-09-17 08:10:52,598 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 3093 ms
+2023-09-17 08:10:55,003 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-09-17 08:10:55,003 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-09-17 08:10:55,471 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-09-17 08:10:55,471 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-09-17 08:10:57,197 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-09-17 08:10:57,197 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-09-17 08:10:57,275 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'taskScheduler'
+2023-09-17 08:10:57,275 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'taskScheduler'
+2023-09-17 08:10:58,162 WARN [main][AbstractApplicationContext.java:559] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 63110 is already in use
+2023-09-17 08:10:58,162 WARN [main][AbstractApplicationContext.java:559] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 63110 is already in use
+2023-09-17 08:10:58,165 INFO [main][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'taskScheduler'
+2023-09-17 08:10:58,165 INFO [main][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'taskScheduler'
+2023-09-17 08:11:05,537 INFO [main][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-09-17 08:11:05,537 INFO [main][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-09-17 08:11:05,578 INFO [main][ConditionEvaluationReportLoggingListener.java:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-09-17 08:11:05,578 INFO [main][ConditionEvaluationReportLoggingListener.java:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-09-17 08:11:05,590 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 63110 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 63110 or configure this application to listen on another port.
+
+2023-09-17 08:11:05,590 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 63110 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 63110 or configure this application to listen on another port.
+
+2023-09-17 08:13:48,710 INFO [main][PropertySourceBootstrapConfiguration.java:112] - Located property source: [BootstrapPropertySource {name='bootstrapProperties-system-service-dev.yaml,learneasy-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-system-service.yaml,learneasy-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-system-service,learneasy-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-logging-dev.yaml,learneasy-plus-common'}, BootstrapPropertySource {name='bootstrapProperties-swagger-dev.yaml,learneasy-plus-common'}]
+2023-09-17 08:13:48,710 INFO [main][PropertySourceBootstrapConfiguration.java:112] - Located property source: [BootstrapPropertySource {name='bootstrapProperties-system-service-dev.yaml,learneasy-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-system-service.yaml,learneasy-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-system-service,learneasy-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-logging-dev.yaml,learneasy-plus-common'}, BootstrapPropertySource {name='bootstrapProperties-swagger-dev.yaml,learneasy-plus-common'}]
+2023-09-17 08:13:51,150 INFO [main][GenericScope.java:295] - BeanFactory id=f75df8a9-3280-360a-8767-9ac19cad6e11
+2023-09-17 08:13:51,150 INFO [main][GenericScope.java:295] - BeanFactory id=f75df8a9-3280-360a-8767-9ac19cad6e11
+2023-09-17 08:13:52,017 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63110 (http)
+2023-09-17 08:13:52,017 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63110 (http)
+2023-09-17 08:13:52,197 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 3438 ms
+2023-09-17 08:13:52,197 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 3438 ms
+2023-09-17 08:13:54,819 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-09-17 08:13:54,819 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-09-17 08:13:54,960 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-09-17 08:13:54,960 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-09-17 08:13:56,085 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-09-17 08:13:56,085 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-09-17 08:13:56,143 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'taskScheduler'
+2023-09-17 08:13:56,143 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'taskScheduler'
+2023-09-17 08:13:57,236 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63110 (http) with context path '/system'
+2023-09-17 08:13:57,236 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63110 (http) with context path '/system'
+2023-09-17 08:13:58,290 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2023-09-17 08:13:58,290 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2023-09-17 08:13:58,304 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2023-09-17 08:13:58,304 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2023-09-17 08:13:58,374 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2023-09-17 08:13:58,374 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2023-09-17 08:13:58,550 INFO [main][CachingOperationNameGenerator.java:40] - Generating unique operation named: listUsingPOST_1
+2023-09-17 08:13:58,550 INFO [main][CachingOperationNameGenerator.java:40] - Generating unique operation named: listUsingPOST_1
+2023-09-17 08:13:58,563 INFO [main][CachingOperationNameGenerator.java:40] - Generating unique operation named: listUsingPOST_2
+2023-09-17 08:13:58,563 INFO [main][CachingOperationNameGenerator.java:40] - Generating unique operation named: listUsingPOST_2
+2023-09-17 08:14:48,644 INFO [http-nio-63110-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-09-17 08:14:48,644 INFO [http-nio-63110-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-09-17 08:14:48,671 INFO [http-nio-63110-exec-1][FrameworkServlet.java:547] - Completed initialization in 25 ms
+2023-09-17 08:14:48,671 INFO [http-nio-63110-exec-1][FrameworkServlet.java:547] - Completed initialization in 25 ms

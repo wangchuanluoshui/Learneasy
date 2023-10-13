@@ -1,0 +1,4 @@
+2023-09-18 09:17:55,064 ERROR [http-nio-63040-exec-10][SecurityUtil.java:25] - 获取当前登录用户身份信息出错：syntax error, expect {, actual error, pos 0, fastjson-version 1.2.83
+2023-09-18 09:18:03,309 ERROR [http-nio-63040-exec-1][SecurityUtil.java:25] - 获取当前登录用户身份信息出错：syntax error, expect {, actual error, pos 0, fastjson-version 1.2.83
+2023-09-18 09:18:19,493 ERROR [http-nio-63040-exec-3][SecurityUtil.java:25] - 获取当前登录用户身份信息出错：syntax error, expect {, actual error, pos 0, fastjson-version 1.2.83
+2023-09-18 09:18:39,531 ERROR [http-nio-63040-exec-2][SecurityUtil.java:25] - 获取当前登录用户身份信息出错：syntax error, expect {, actual error, pos 0, fastjson-version 1.2.83

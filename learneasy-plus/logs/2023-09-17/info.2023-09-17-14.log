@@ -1,0 +1,190 @@
+2023-09-17 15:43:30,893 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-09-17 15:43:30,893 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-09-17 15:43:31,118 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'taskScheduler'
+2023-09-17 15:43:31,118 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'taskScheduler'
+2023-09-17 15:43:31,197 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][ClientWorker.java:430] - [fixed-127.0.0.1_8848-public] [polling-resp] config changed. dataId=logging-dev.yaml, group=learneasy-plus-common, tenant=public
+2023-09-17 15:43:31,197 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][ClientWorker.java:430] - [fixed-127.0.0.1_8848-public] [polling-resp] config changed. dataId=logging-dev.yaml, group=learneasy-plus-common, tenant=public
+2023-09-17 15:43:31,198 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][ClientWorker.java:430] - [fixed-127.0.0.1_8848-public] [polling-resp] config changed. dataId=search-dev.yaml, group=learneasy-plus-project, tenant=public
+2023-09-17 15:43:31,198 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][ClientWorker.java:430] - [fixed-127.0.0.1_8848-public] [polling-resp] config changed. dataId=search-dev.yaml, group=learneasy-plus-project, tenant=public
+2023-09-17 15:43:31,198 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][ClientWorker.java:430] - [fixed-127.0.0.1_8848-public] [polling-resp] config changed. dataId=swagger-dev.yaml, group=learneasy-plus-common, tenant=public
+2023-09-17 15:43:31,198 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][ClientWorker.java:430] - [fixed-127.0.0.1_8848-public] [polling-resp] config changed. dataId=swagger-dev.yaml, group=learneasy-plus-common, tenant=public
+2023-09-17 15:43:31,199 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][ClientWorker.java:537] - get changedGroupKeys:[logging-dev.yaml+learneasy-plus-common+public, search-dev.yaml+learneasy-plus-project+public, swagger-dev.yaml+learneasy-plus-common+public]
+2023-09-17 15:43:31,199 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][ClientWorker.java:537] - get changedGroupKeys:[logging-dev.yaml+learneasy-plus-common+public, search-dev.yaml+learneasy-plus-project+public, swagger-dev.yaml+learneasy-plus-common+public]
+2023-09-17 15:43:31,199 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][NacosRestTemplate.java:476] - HTTP method: GET, url: http://127.0.0.1:8848/nacos/v1/cs/configs?dataId=logging-dev.yaml&tenant=public&group=learneasy-plus-common, body: null
+2023-09-17 15:43:31,199 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][NacosRestTemplate.java:476] - HTTP method: GET, url: http://127.0.0.1:8848/nacos/v1/cs/configs?dataId=logging-dev.yaml&tenant=public&group=learneasy-plus-common, body: null
+2023-09-17 15:43:31,200 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@3c3266e5]
+2023-09-17 15:43:31,200 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@3c3266e5]
+2023-09-17 15:43:31,211 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][ClientWorker.java:556] - [fixed-127.0.0.1_8848-public] [data-received] dataId=logging-dev.yaml, group=learneasy-plus-common, tenant=public, md5=cf8b1af28beb25b242f97519c8f2c560, content=# 日志文件配置路径
+logging:
+  config: classpath:log4j2-dev.xml
+  level:
+    org.springframework.cloud.gatewa..., type=yaml
+2023-09-17 15:43:31,211 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][ClientWorker.java:556] - [fixed-127.0.0.1_8848-public] [data-received] dataId=logging-dev.yaml, group=learneasy-plus-common, tenant=public, md5=cf8b1af28beb25b242f97519c8f2c560, content=# 日志文件配置路径
+logging:
+  config: classpath:log4j2-dev.xml
+  level:
+    org.springframework.cloud.gatewa..., type=yaml
+2023-09-17 15:43:31,212 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][NacosRestTemplate.java:476] - HTTP method: GET, url: http://127.0.0.1:8848/nacos/v1/cs/configs?dataId=search-dev.yaml&tenant=public&group=learneasy-plus-project, body: null
+2023-09-17 15:43:31,212 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][NacosRestTemplate.java:476] - HTTP method: GET, url: http://127.0.0.1:8848/nacos/v1/cs/configs?dataId=search-dev.yaml&tenant=public&group=learneasy-plus-project, body: null
+2023-09-17 15:43:31,213 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@3c3266e5]
+2023-09-17 15:43:31,213 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@3c3266e5]
+2023-09-17 15:43:31,220 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][ClientWorker.java:556] - [fixed-127.0.0.1_8848-public] [data-received] dataId=search-dev.yaml, group=learneasy-plus-project, tenant=public, md5=00ffb0cd59d040a34d890f340c09d8d3, content=server:
+  servlet:
+    context-path: /search
+  port: 63080
+
+elasticsearch:
+  hostlist: 127.0.0.1:920..., type=yaml
+2023-09-17 15:43:31,220 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][ClientWorker.java:556] - [fixed-127.0.0.1_8848-public] [data-received] dataId=search-dev.yaml, group=learneasy-plus-project, tenant=public, md5=00ffb0cd59d040a34d890f340c09d8d3, content=server:
+  servlet:
+    context-path: /search
+  port: 63080
+
+elasticsearch:
+  hostlist: 127.0.0.1:920..., type=yaml
+2023-09-17 15:43:31,222 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][NacosRestTemplate.java:476] - HTTP method: GET, url: http://127.0.0.1:8848/nacos/v1/cs/configs?dataId=swagger-dev.yaml&tenant=public&group=learneasy-plus-common, body: null
+2023-09-17 15:43:31,222 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][NacosRestTemplate.java:476] - HTTP method: GET, url: http://127.0.0.1:8848/nacos/v1/cs/configs?dataId=swagger-dev.yaml&tenant=public&group=learneasy-plus-common, body: null
+2023-09-17 15:43:31,223 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@3c3266e5]
+2023-09-17 15:43:31,223 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@3c3266e5]
+2023-09-17 15:43:31,230 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][ClientWorker.java:556] - [fixed-127.0.0.1_8848-public] [data-received] dataId=swagger-dev.yaml, group=learneasy-plus-common, tenant=public, md5=a84d224238370276109cf791d5feba14, content=# swagger 文档配置
+swagger:
+  title: "学成在线内容管理系统"
+  description: "内容系统管理系统对课程相关信息进行业务管理数据"
+  base-packag..., type=yaml
+2023-09-17 15:43:31,230 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][ClientWorker.java:556] - [fixed-127.0.0.1_8848-public] [data-received] dataId=swagger-dev.yaml, group=learneasy-plus-common, tenant=public, md5=a84d224238370276109cf791d5feba14, content=# swagger 文档配置
+swagger:
+  title: "学成在线内容管理系统"
+  description: "内容系统管理系统对课程相关信息进行业务管理数据"
+  base-packag..., type=yaml
+2023-09-17 15:43:31,233 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][NacosRestTemplate.java:476] - HTTP method: POST, url: http://127.0.0.1:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=search.yamllearneasy-plus-projectpubliclogging-dev.yamllearneasy-plus-commoncf8b1af28beb25b242f97519c8f2c560publicsearchlearneasy-plus-projectpublicsearch-dev.yamllearneasy-plus-project00ffb0cd59d040a34d890f340c09d8d3publicswagger-dev.yamllearneasy-plus-commona84d224238370276109cf791d5feba14public, tenant=public}
+2023-09-17 15:43:31,233 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][NacosRestTemplate.java:476] - HTTP method: POST, url: http://127.0.0.1:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=search.yamllearneasy-plus-projectpubliclogging-dev.yamllearneasy-plus-commoncf8b1af28beb25b242f97519c8f2c560publicsearchlearneasy-plus-projectpublicsearch-dev.yamllearneasy-plus-project00ffb0cd59d040a34d890f340c09d8d3publicswagger-dev.yamllearneasy-plus-commona84d224238370276109cf791d5feba14public, tenant=public}
+2023-09-17 15:43:31,234 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@3c3266e5]
+2023-09-17 15:43:31,234 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@3c3266e5]
+2023-09-17 15:43:31,291 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] public sending beat to server: BeatInfo{port=63080, ip='192.168.31.235', weight=1.0, serviceName='learneasy-plus-project@@search', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-09-17 15:43:31,291 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] public sending beat to server: BeatInfo{port=63080, ip='192.168.31.235', weight=1.0, serviceName='learneasy-plus-project@@search', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-09-17 15:43:31,292 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://127.0.0.1:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=learneasy-plus-project%40%40search&namespaceId=public&port=63080&clusterName=DEFAULT&ip=192.168.31.235, body: {}
+2023-09-17 15:43:31,292 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://127.0.0.1:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=learneasy-plus-project%40%40search&namespaceId=public&port=63080&clusterName=DEFAULT&ip=192.168.31.235, body: {}
+2023-09-17 15:43:31,383 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][ClientWorker.java:430] - [fixed-127.0.0.1_8848-public] [polling-resp] config changed. dataId=logging-dev.yaml, group=learneasy-plus-common, tenant=public
+2023-09-17 15:43:31,383 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][ClientWorker.java:430] - [fixed-127.0.0.1_8848-public] [polling-resp] config changed. dataId=logging-dev.yaml, group=learneasy-plus-common, tenant=public
+2023-09-17 15:43:31,383 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][ClientWorker.java:430] - [fixed-127.0.0.1_8848-public] [polling-resp] config changed. dataId=search-dev.yaml, group=learneasy-plus-project, tenant=public
+2023-09-17 15:43:31,383 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][ClientWorker.java:430] - [fixed-127.0.0.1_8848-public] [polling-resp] config changed. dataId=search-dev.yaml, group=learneasy-plus-project, tenant=public
+2023-09-17 15:43:31,384 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][ClientWorker.java:430] - [fixed-127.0.0.1_8848-public] [polling-resp] config changed. dataId=swagger-dev.yaml, group=learneasy-plus-common, tenant=public
+2023-09-17 15:43:31,384 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][ClientWorker.java:430] - [fixed-127.0.0.1_8848-public] [polling-resp] config changed. dataId=swagger-dev.yaml, group=learneasy-plus-common, tenant=public
+2023-09-17 15:43:31,385 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][ClientWorker.java:537] - get changedGroupKeys:[logging-dev.yaml+learneasy-plus-common+public, search-dev.yaml+learneasy-plus-project+public, swagger-dev.yaml+learneasy-plus-common+public]
+2023-09-17 15:43:31,385 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][ClientWorker.java:537] - get changedGroupKeys:[logging-dev.yaml+learneasy-plus-common+public, search-dev.yaml+learneasy-plus-project+public, swagger-dev.yaml+learneasy-plus-common+public]
+2023-09-17 15:43:31,385 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][NacosRestTemplate.java:476] - HTTP method: GET, url: http://127.0.0.1:8848/nacos/v1/cs/configs?dataId=logging-dev.yaml&tenant=public&group=learneasy-plus-common, body: null
+2023-09-17 15:43:31,385 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][NacosRestTemplate.java:476] - HTTP method: GET, url: http://127.0.0.1:8848/nacos/v1/cs/configs?dataId=logging-dev.yaml&tenant=public&group=learneasy-plus-common, body: null
+2023-09-17 15:43:31,385 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@3c3266e5]
+2023-09-17 15:43:31,385 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@3c3266e5]
+2023-09-17 15:43:31,390 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][ClientWorker.java:556] - [fixed-127.0.0.1_8848-public] [data-received] dataId=logging-dev.yaml, group=learneasy-plus-common, tenant=public, md5=cf8b1af28beb25b242f97519c8f2c560, content=# 日志文件配置路径
+logging:
+  config: classpath:log4j2-dev.xml
+  level:
+    org.springframework.cloud.gatewa..., type=yaml
+2023-09-17 15:43:31,390 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][ClientWorker.java:556] - [fixed-127.0.0.1_8848-public] [data-received] dataId=logging-dev.yaml, group=learneasy-plus-common, tenant=public, md5=cf8b1af28beb25b242f97519c8f2c560, content=# 日志文件配置路径
+logging:
+  config: classpath:log4j2-dev.xml
+  level:
+    org.springframework.cloud.gatewa..., type=yaml
+2023-09-17 15:43:31,391 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][NacosRestTemplate.java:476] - HTTP method: GET, url: http://127.0.0.1:8848/nacos/v1/cs/configs?dataId=search-dev.yaml&tenant=public&group=learneasy-plus-project, body: null
+2023-09-17 15:43:31,391 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][NacosRestTemplate.java:476] - HTTP method: GET, url: http://127.0.0.1:8848/nacos/v1/cs/configs?dataId=search-dev.yaml&tenant=public&group=learneasy-plus-project, body: null
+2023-09-17 15:43:31,391 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@3c3266e5]
+2023-09-17 15:43:31,391 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@3c3266e5]
+2023-09-17 15:43:31,396 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][ClientWorker.java:556] - [fixed-127.0.0.1_8848-public] [data-received] dataId=search-dev.yaml, group=learneasy-plus-project, tenant=public, md5=00ffb0cd59d040a34d890f340c09d8d3, content=server:
+  servlet:
+    context-path: /search
+  port: 63080
+
+elasticsearch:
+  hostlist: 127.0.0.1:920..., type=yaml
+2023-09-17 15:43:31,396 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][ClientWorker.java:556] - [fixed-127.0.0.1_8848-public] [data-received] dataId=search-dev.yaml, group=learneasy-plus-project, tenant=public, md5=00ffb0cd59d040a34d890f340c09d8d3, content=server:
+  servlet:
+    context-path: /search
+  port: 63080
+
+elasticsearch:
+  hostlist: 127.0.0.1:920..., type=yaml
+2023-09-17 15:43:31,396 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][NacosRestTemplate.java:476] - HTTP method: GET, url: http://127.0.0.1:8848/nacos/v1/cs/configs?dataId=swagger-dev.yaml&tenant=public&group=learneasy-plus-common, body: null
+2023-09-17 15:43:31,396 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][NacosRestTemplate.java:476] - HTTP method: GET, url: http://127.0.0.1:8848/nacos/v1/cs/configs?dataId=swagger-dev.yaml&tenant=public&group=learneasy-plus-common, body: null
+2023-09-17 15:43:31,397 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@3c3266e5]
+2023-09-17 15:43:31,397 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@3c3266e5]
+2023-09-17 15:43:31,402 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][ClientWorker.java:556] - [fixed-127.0.0.1_8848-public] [data-received] dataId=swagger-dev.yaml, group=learneasy-plus-common, tenant=public, md5=a84d224238370276109cf791d5feba14, content=# swagger 文档配置
+swagger:
+  title: "学成在线内容管理系统"
+  description: "内容系统管理系统对课程相关信息进行业务管理数据"
+  base-packag..., type=yaml
+2023-09-17 15:43:31,402 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][ClientWorker.java:556] - [fixed-127.0.0.1_8848-public] [data-received] dataId=swagger-dev.yaml, group=learneasy-plus-common, tenant=public, md5=a84d224238370276109cf791d5feba14, content=# swagger 文档配置
+swagger:
+  title: "学成在线内容管理系统"
+  description: "内容系统管理系统对课程相关信息进行业务管理数据"
+  base-packag..., type=yaml
+2023-09-17 15:43:31,403 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][NacosRestTemplate.java:476] - HTTP method: POST, url: http://127.0.0.1:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=search.yamllearneasy-plus-projectpubliclogging-dev.yamllearneasy-plus-commoncf8b1af28beb25b242f97519c8f2c560publicsearchlearneasy-plus-projectpublicsearch-dev.yamllearneasy-plus-project00ffb0cd59d040a34d890f340c09d8d3publicswagger-dev.yamllearneasy-plus-commona84d224238370276109cf791d5feba14public, tenant=public}
+2023-09-17 15:43:31,403 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][NacosRestTemplate.java:476] - HTTP method: POST, url: http://127.0.0.1:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=search.yamllearneasy-plus-projectpubliclogging-dev.yamllearneasy-plus-commoncf8b1af28beb25b242f97519c8f2c560publicsearchlearneasy-plus-projectpublicsearch-dev.yamllearneasy-plus-project00ffb0cd59d040a34d890f340c09d8d3publicswagger-dev.yamllearneasy-plus-commona84d224238370276109cf791d5feba14public, tenant=public}
+2023-09-17 15:43:31,403 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@3c3266e5]
+2023-09-17 15:43:31,403 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@3c3266e5]
+2023-09-17 15:43:31,481 WARN [Thread-2][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-09-17 15:43:31,481 WARN [Thread-2][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-09-17 15:43:31,488 WARN [Thread-13][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-09-17 15:43:31,489 WARN [Thread-13][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-09-17 15:43:31,488 WARN [Thread-13][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-09-17 15:43:31,489 WARN [Thread-13][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-09-17 15:43:31,490 WARN [Thread-2][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-09-17 15:43:31,490 WARN [Thread-2][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-09-17 15:43:31,583 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][ClientWorker.java:430] - [fixed-127.0.0.1_8848-public] [polling-resp] config changed. dataId=logging-dev.yaml, group=learneasy-plus-common, tenant=public
+2023-09-17 15:43:31,583 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][ClientWorker.java:430] - [fixed-127.0.0.1_8848-public] [polling-resp] config changed. dataId=logging-dev.yaml, group=learneasy-plus-common, tenant=public
+2023-09-17 15:43:31,584 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][ClientWorker.java:430] - [fixed-127.0.0.1_8848-public] [polling-resp] config changed. dataId=search-dev.yaml, group=learneasy-plus-project, tenant=public
+2023-09-17 15:43:31,584 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][ClientWorker.java:430] - [fixed-127.0.0.1_8848-public] [polling-resp] config changed. dataId=search-dev.yaml, group=learneasy-plus-project, tenant=public
+2023-09-17 15:43:31,584 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][ClientWorker.java:430] - [fixed-127.0.0.1_8848-public] [polling-resp] config changed. dataId=swagger-dev.yaml, group=learneasy-plus-common, tenant=public
+2023-09-17 15:43:31,584 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][ClientWorker.java:430] - [fixed-127.0.0.1_8848-public] [polling-resp] config changed. dataId=swagger-dev.yaml, group=learneasy-plus-common, tenant=public
+2023-09-17 15:43:31,584 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][ClientWorker.java:537] - get changedGroupKeys:[logging-dev.yaml+learneasy-plus-common+public, search-dev.yaml+learneasy-plus-project+public, swagger-dev.yaml+learneasy-plus-common+public]
+2023-09-17 15:43:31,584 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][ClientWorker.java:537] - get changedGroupKeys:[logging-dev.yaml+learneasy-plus-common+public, search-dev.yaml+learneasy-plus-project+public, swagger-dev.yaml+learneasy-plus-common+public]
+2023-09-17 15:43:31,585 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][NacosRestTemplate.java:476] - HTTP method: GET, url: http://127.0.0.1:8848/nacos/v1/cs/configs?dataId=logging-dev.yaml&tenant=public&group=learneasy-plus-common, body: null
+2023-09-17 15:43:31,585 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][NacosRestTemplate.java:476] - HTTP method: GET, url: http://127.0.0.1:8848/nacos/v1/cs/configs?dataId=logging-dev.yaml&tenant=public&group=learneasy-plus-common, body: null
+2023-09-17 15:43:31,585 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@3c3266e5]
+2023-09-17 15:43:31,585 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@3c3266e5]
+2023-09-17 15:43:31,591 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][ClientWorker.java:556] - [fixed-127.0.0.1_8848-public] [data-received] dataId=logging-dev.yaml, group=learneasy-plus-common, tenant=public, md5=cf8b1af28beb25b242f97519c8f2c560, content=# 日志文件配置路径
+logging:
+  config: classpath:log4j2-dev.xml
+  level:
+    org.springframework.cloud.gatewa..., type=yaml
+2023-09-17 15:43:31,591 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][ClientWorker.java:556] - [fixed-127.0.0.1_8848-public] [data-received] dataId=logging-dev.yaml, group=learneasy-plus-common, tenant=public, md5=cf8b1af28beb25b242f97519c8f2c560, content=# 日志文件配置路径
+logging:
+  config: classpath:log4j2-dev.xml
+  level:
+    org.springframework.cloud.gatewa..., type=yaml
+2023-09-17 15:43:31,591 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][NacosRestTemplate.java:476] - HTTP method: GET, url: http://127.0.0.1:8848/nacos/v1/cs/configs?dataId=search-dev.yaml&tenant=public&group=learneasy-plus-project, body: null
+2023-09-17 15:43:31,591 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][NacosRestTemplate.java:476] - HTTP method: GET, url: http://127.0.0.1:8848/nacos/v1/cs/configs?dataId=search-dev.yaml&tenant=public&group=learneasy-plus-project, body: null
+2023-09-17 15:43:31,592 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@3c3266e5]
+2023-09-17 15:43:31,592 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@3c3266e5]
+2023-09-17 15:43:31,596 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][ClientWorker.java:556] - [fixed-127.0.0.1_8848-public] [data-received] dataId=search-dev.yaml, group=learneasy-plus-project, tenant=public, md5=00ffb0cd59d040a34d890f340c09d8d3, content=server:
+  servlet:
+    context-path: /search
+  port: 63080
+
+elasticsearch:
+  hostlist: 127.0.0.1:920..., type=yaml
+2023-09-17 15:43:31,596 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][ClientWorker.java:556] - [fixed-127.0.0.1_8848-public] [data-received] dataId=search-dev.yaml, group=learneasy-plus-project, tenant=public, md5=00ffb0cd59d040a34d890f340c09d8d3, content=server:
+  servlet:
+    context-path: /search
+  port: 63080
+
+elasticsearch:
+  hostlist: 127.0.0.1:920..., type=yaml
+2023-09-17 15:43:31,597 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][NacosRestTemplate.java:476] - HTTP method: GET, url: http://127.0.0.1:8848/nacos/v1/cs/configs?dataId=swagger-dev.yaml&tenant=public&group=learneasy-plus-common, body: null
+2023-09-17 15:43:31,597 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][NacosRestTemplate.java:476] - HTTP method: GET, url: http://127.0.0.1:8848/nacos/v1/cs/configs?dataId=swagger-dev.yaml&tenant=public&group=learneasy-plus-common, body: null
+2023-09-17 15:43:31,597 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@3c3266e5]
+2023-09-17 15:43:31,597 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@3c3266e5]
+2023-09-17 15:43:31,602 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][ClientWorker.java:556] - [fixed-127.0.0.1_8848-public] [data-received] dataId=swagger-dev.yaml, group=learneasy-plus-common, tenant=public, md5=a84d224238370276109cf791d5feba14, content=# swagger 文档配置
+swagger:
+  title: "学成在线内容管理系统"
+  description: "内容系统管理系统对课程相关信息进行业务管理数据"
+  base-packag..., type=yaml
+2023-09-17 15:43:31,602 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][ClientWorker.java:556] - [fixed-127.0.0.1_8848-public] [data-received] dataId=swagger-dev.yaml, group=learneasy-plus-common, tenant=public, md5=a84d224238370276109cf791d5feba14, content=# swagger 文档配置
+swagger:
+  title: "学成在线内容管理系统"
+  description: "内容系统管理系统对课程相关信息进行业务管理数据"
+  base-packag..., type=yaml
+2023-09-17 15:43:31,603 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][NacosRestTemplate.java:476] - HTTP method: POST, url: http://127.0.0.1:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=search.yamllearneasy-plus-projectpubliclogging-dev.yamllearneasy-plus-commoncf8b1af28beb25b242f97519c8f2c560publicsearchlearneasy-plus-projectpublicsearch-dev.yamllearneasy-plus-project00ffb0cd59d040a34d890f340c09d8d3publicswagger-dev.yamllearneasy-plus-commona84d224238370276109cf791d5feba14public, tenant=public}
+2023-09-17 15:43:31,603 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][NacosRestTemplate.java:476] - HTTP method: POST, url: http://127.0.0.1:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=search.yamllearneasy-plus-projectpubliclogging-dev.yamllearneasy-plus-commoncf8b1af28beb25b242f97519c8f2c560publicsearchlearneasy-plus-projectpublicsearch-dev.yamllearneasy-plus-project00ffb0cd59d040a34d890f340c09d8d3publicswagger-dev.yamllearneasy-plus-commona84d224238370276109cf791d5feba14public, tenant=public}
+2023-09-17 15:43:31,604 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@3c3266e5]
+2023-09-17 15:43:31,604 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-public][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@3c3266e5]

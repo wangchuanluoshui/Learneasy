@@ -1,0 +1,36 @@
+2023-09-20 17:26:38,764 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-09-20 17:26:38,764 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-09-20 17:26:38,899 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'taskScheduler'
+2023-09-20 17:26:38,899 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'taskScheduler'
+2023-09-20 17:26:38,942 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-09-20 17:26:38,942 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-09-20 17:26:38,955 INFO [SpringContextShutdownHook][SimpleMessageListenerContainer.java:646] - Waiting for workers to finish.
+2023-09-20 17:26:38,955 INFO [SpringContextShutdownHook][SimpleMessageListenerContainer.java:646] - Waiting for workers to finish.
+2023-09-20 17:26:38,992 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2023-09-20 17:26:38,992 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2023-09-20 17:26:38,993 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: learneasy-plus-project@@media-api:192.168.85.1:63050 from beat map.
+2023-09-20 17:26:38,993 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: learneasy-plus-project@@media-api:192.168.85.1:63050 from beat map.
+2023-09-20 17:26:38,994 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] dev1010 deregistering service learneasy-plus-project@@media-api with instance: Instance{instanceId='null', ip='192.168.85.1', port=63050, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2023-09-20 17:26:38,994 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] dev1010 deregistering service learneasy-plus-project@@media-api with instance: Instance{instanceId='null', ip='192.168.85.1', port=63050, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2023-09-20 17:26:38,995 DEBUG [SpringContextShutdownHook][NacosRestTemplate.java:476] - HTTP method: DELETE, url: http://192.168.101.65:8848/nacos/v1/ns/instance?app=unknown&namespaceId=dev1010&port=63050&clusterName=DEFAULT&ip=192.168.85.1&ephemeral=true&serviceName=learneasy-plus-project%40%40media-api, body: {}
+2023-09-20 17:26:38,995 DEBUG [SpringContextShutdownHook][NacosRestTemplate.java:476] - HTTP method: DELETE, url: http://192.168.101.65:8848/nacos/v1/ns/instance?app=unknown&namespaceId=dev1010&port=63050&clusterName=DEFAULT&ip=192.168.85.1&ephemeral=true&serviceName=learneasy-plus-project%40%40media-api, body: {}
+2023-09-20 17:26:38,999 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2023-09-20 17:26:38,999 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2023-09-20 17:26:39,000 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2023-09-20 17:26:39,000 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2023-09-20 17:26:39,018 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-09-20 17:26:39,018 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-09-20 17:26:39,074 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-09-20 17:26:39,074 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-09-20 17:26:39,140 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2023-09-20 17:26:39,140 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2023-09-20 17:26:39,141 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: learneasy-plus-project@@search:192.168.85.1:63080 from beat map.
+2023-09-20 17:26:39,141 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: learneasy-plus-project@@search:192.168.85.1:63080 from beat map.
+2023-09-20 17:26:39,142 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] dev1010 deregistering service learneasy-plus-project@@search with instance: Instance{instanceId='null', ip='192.168.85.1', port=63080, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2023-09-20 17:26:39,142 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] dev1010 deregistering service learneasy-plus-project@@search with instance: Instance{instanceId='null', ip='192.168.85.1', port=63080, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2023-09-20 17:26:39,143 DEBUG [SpringContextShutdownHook][NacosRestTemplate.java:476] - HTTP method: DELETE, url: http://192.168.101.65:8848/nacos/v1/ns/instance?app=unknown&namespaceId=dev1010&port=63080&clusterName=DEFAULT&ip=192.168.85.1&ephemeral=true&serviceName=learneasy-plus-project%40%40search, body: {}
+2023-09-20 17:26:39,143 DEBUG [SpringContextShutdownHook][NacosRestTemplate.java:476] - HTTP method: DELETE, url: http://192.168.101.65:8848/nacos/v1/ns/instance?app=unknown&namespaceId=dev1010&port=63080&clusterName=DEFAULT&ip=192.168.85.1&ephemeral=true&serviceName=learneasy-plus-project%40%40search, body: {}
+2023-09-20 17:26:39,146 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2023-09-20 17:26:39,146 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2023-09-20 17:26:39,147 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2023-09-20 17:26:39,147 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
